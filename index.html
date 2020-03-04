@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matt Canoy Illies</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="displaywrapper">
+      <div id="particles-js" class="particles"></div>
+      <div class="displaytext">
+        Hello, my name is <span id="displayname">Matt Canoy Illies</span>and I
+        like to build web apps.
+        <a href="#projectswrapper"
+          ><button class="btn btn-danger" id="projectsbutton">
+            Check for yourself!
+          </button>
+        </a>
+      </div>
+    </div>
+    <div id="navwrapper">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutwrapper">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projectswrapper">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactwrapper">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div id="aboutwrapper">
+      <div class="aboutsides"></div>
+      <div>
+        <p id="abouttext">
+          I am a developer with fullstack experience, looking to turn my love
+          for creation into a career. I currently reside in Rochester, MN
+        </p>
+        <a href="./pdfs/MattIlliesDevResume.pdf" target="”_blank”"
+          ><button id="resume" class="btn btn-danger">View my resume</button></a
+        >
+        <ul id="iconlist">
+          <li><img src="./imgs/html.png" id="htmlicon" /></li>
+          <li><img src="./imgs/css.png" id="cssicon" /></li>
+          <li><img src="./imgs/js.png" id="jsicon" /></li>
+          <li><img src="./imgs/react.png" id="reacticon" /></li>
+          <li><img src="./imgs/node.png" id="nodeicon" /></li>
+          <li><img src="./imgs/sql.png" id="sqlicon" /></li>
+        </ul>
+      </div>
+      <div class="aboutsides"></div>
+    </div>
+    <div id="projectswrapper">
+      projects
+    </div>
+    <div id="contactwrapper">
+      Contact
+    </div>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles-js config loaded');
+      });
+    </script>
+  </body>
+</html>
